@@ -17,7 +17,7 @@ def mostrar_tots_els_productes(llista_productes_rebuda):
     else:
         print("\n--- LLISTA DE PRODUCTES ---")
         for i, producteActual2n in enumerate(llista_productes_rebuda):
-            producteActual2n.mostrar()
+            producteActual2n.mostrar_dades()
 
 
 def seleccionar_producte(llista_productes_rebuda):
